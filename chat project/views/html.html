@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/style.css" />
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="../public/client.js"></script>
+    <title>The Chat App</title>
+  </head>
+  <body>
+
+    <div id="inbody">
+      <div id="logo">
+        <img id="img" src="../chat_icon.png" alt="img" />
+
+        <h2>The Chat App</h2>
+      </div>
+
+      <div class="container"></div>
+
+      <form action="#" id="send-container">
+        <input type="text"  class="send-its"  name="mss-inp"  id="mss-inp"  placeholder="Type a message" >
+        <button type="submit" class="send-its" id="send">Send</button>
+      </form>
+    </div>
+  </body>
+</html>

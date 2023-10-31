@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: #7ab3d5;
+  height: 100vh;
+}
+html body {
+  height: 97.5%;
+}
+html body #inbody {
+  margin: 10px;
+  border-radius: 26px;
+  height: 100%;
+}
+html body #inbody #logo {
+  padding: 17px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+html body #inbody #logo #img {
+  height: 63px;
+}
+html body #inbody .container {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 60%;
+  height: 55vh;
+  padding: 15px;
+  display: block;
+  margin: auto;
+  overflow-y: auto;
+}
+html body #inbody .container .message {
+  background-color: #5395bb;
+  margin: 4px;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 4px;
+  font-size: 1.2rem;
+  font-family: "Mooli", sans-serif;
+}
+html body #inbody .container .message .name {
+  font-weight: bold;
+  margin: 0px 4px;
+  font-size: 0.8rem;
+  color: rgb(255, 103, 103);
+}
+html body #inbody .container .right {
+  width: 50%;
+  float: right;
+  clear: both;
+}
+html body #inbody .container .left {
+  width: 50%;
+  float: left;
+  clear: both;
+}
+html body #inbody .container .center {
+  width: 24%;
+  margin: 15px auto;
+  clear: both;
+  text-align: center;
+}
+html body #inbody #send-container {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 25px auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+html body #inbody #send-container .send-its {
+  border: 2px soid black;
+  border-radius: 10px;
+}
+html body #inbody #send-container #mss-inp {
+  height: 20px;
+  width: 90%;
+  padding: 7px 13px;
+}
+html body #inbody #send-container #send {
+  height: 30px;
+  width: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

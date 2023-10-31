@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css" media="only screen and (max-width: 1539px)">
+    <link rel="stylesheet" href="./css/style2.css" media="only screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="./css/style3.css" media="only screen and (max-width: 921px)">
+    <link rel="stylesheet" href="./css/style4.css" media="only screen and (max-width: 770px)">
+    <link rel="stylesheet" href="./css/style5.css" media="only screen and (max-width: 664px)">
+    <link rel="stylesheet" href="./css/style6.css" media="only screen and (max-width: 472px)">
+    <link rel="stylesheet" href="./css/style7.css" media="only screen and (max-width: 404px)">
+    <link rel="icon" type="image/x-icon" href="./imgs/editorLogo.png">
+    <title>Ali Naqi | Web Developer</title>
+</head>
+<body>
+    <nav class="  background h-nav h-navResp" id="navBar" >
+        <ul id="navList" class="v-classResp" >
+            <div id="logo"><img src="./imgs/img.png" class="hoverPointer" alt="logo"></div>
+            <li class="navItems hoverPointer" id="navItem1"><a href="#firsSection">Home</a></li>
+            <li class="navItems hoverPointer" id="navItem2"><a href="#secondSection">About</a></li>
+            <li class="navItems hoverPointer" id="navItem3"><a href="#services">Services</a></li>
+            <li class="navItems" id="navItem4"><a href="#thirdSection">Contact</a></li>
+        </ul>
+        <div id="search" class="v-classResp" >
+            <input class="hoverPointer searchItems" type="text" name="search" id="navSearch" placeholder="Type here to search">
+            <button class="hoverPointer searchItems" id="navSearchButton">Search</button>
+        </div>
+        <div class="burger" id="burger">
+            <div class="burgerItems"></div>
+            <div class="burgerItems"></div>
+            <div class="burgerItems"></div>
+        </div>
+    </nav>
+    <main id="main">
+        <section id="firsSection" class="background">
+            <article id="firsSectionArticle">
+                <section id="firsHalf" class="firsSectionArticleItems">
+
+                    <p class="textBig">The Future of nation is here</p>
+
+                    <p class="textSmall">In this world of 7 billion people, we educate people with hundred percent accuracy and precision. We want people of the world be educated. </p>
+                    
+                    <div id="buttons">
+                        <button class="btn hoverPointer">Subscribe</button><button class="btn hoverPointer">Watch video</button>
+                    </div>
+
+                </section>
+
+                <section id="secondHalf" class="firsSectionArticleItems">
+
+                    <img id="firsSectionImg"class="hoverPointer" src="./imgs/img.png" alt="">
+
+                </section>
+                <div id="home" class="not"></div>
+            </article>
+        </section>
+
+
+        <section id="secondSection">
+            <article class="secondSectionArticles" id="secondSectionArticle_1">
+                
+                <section class="secRigh">
+                    <p class="secondSectionArticleTag textBig secondSectionArticleItems">The Frontend I use</p>
+                    <p class="secondSectionArticleSubTag textSmall secondSectionArticleItems">Front-End languages play a key role in order to create websites and applications that are robust, interactive and attractive for users. In this context, a Front-End web developer is, in essence, responsible for creating everything that is seen on a page: images, texts, alignment, navigation, colors, etc. I have used HTML, Css and Javascript in most of the projets. I have mastered these languages.</p>
+                    </section>
+                <figure class="secondSectionArticleItems">
+                    <img class="secondSectionLogos hoverPointer" src="./imgs/Front end logo.png" alt="Image">
+                </figure>
+                
+            </article>
+            <article class="secondSectionArticles" id="secondSectionArticle_2">
+                
+                <section class="secRigh">
+                    <p class="secondSectionArticleTag textBig secondSectionArticleItems">The Backend I use</p>
+                    <p class="secondSectionArticleSubTag textSmall secondSectionArticleItems">NodeJs is a backend language. It is a framework of Javascript, which is a frontend language, as discussed above. There are many technologies related to backend in NodeJs like Express.Js, Socket.io Async.Js, Request, Ethers.Js, Mongoose, UglifyJS2 etc. I am working in Express.Js, Socket.io, Mongoose and some others. I have also made some projects using them.</p>
+                </section>
+                <figure class="secondSectionArticleItems">
+                    <img class="secondSectionLogos hoverPointer" src="./imgs/backendLogo.png" alt="Image">
+                </figure>
+                
+
+            </article>
+            <article class="secondSectionArticles" id="secondSectionArticle_3">
+                <section class="secRigh">
+                <p class="secondSectionArticleTag textBig secondSectionArticleItems">The editor I use</p>
+                <p class="secondSectionArticleSubTag textSmall secondSectionArticleItems">VS Code is a code editor provided by Microsoft. It is considered to be one of the best code editors in the world. I have developed most of my projects using it. I provides many facilitates programmers in many ways. It is a streamlined code editor with support for development operations like debugging, task running, and version control.VS Code supports many programming languages, for which a developer does not require Web Support. Everything can be found in its built-in multi-language support.</p>
+                </section>
+                <figure class="secondSectionArticleItems">
+                    <img id="secondSectionLogo_3" class="secondSectionLogos hoverPointer" src="./imgs/editorLogo.png" alt="Image">
+                </figure>
+
+            </article>
+        </section>
+        <hr>
+        <section id="thirdSection">
+            <form action="\" method="post">
+            <h2 id="Caption" class="textBig ">Contact Us</h2>
+
+            <label  id="formItem1" class=" formItems ">
+                <span class="textSmall">Write your name :</span>
+                <input class="formInputs textSmall" name="Nmae" placeholder="eg. Umair Khalifa, Aon Sins etc..." type="text">
+            </label>
+
+            <label id="formItem2"  class=" formItems ">
+                <span class="textSmall">Write your E-mail address :</span>
+                <input class="formInputs textSmall" name="Email"  placeholder="eg. example69@gmail.com" type="email">
+            </label>
+
+            <label  id="formItem3" class=" formItems ">
+                <span class="textSmall">Write your Ph. No. :</span>
+                <input class="formInputs textSmall" name="Telephone" placeholder="eg +1 123 45678"  type="tel">
+            </label>
+
+            <label  id="formItem4" class=" formItems ">
+                <span class="textSmall">Some words for this website :</span>
+                <textarea class="formInputs textSmall"  name="Comments" placeholder="I liked this website very much....." rows="2" ></textarea>
+            </label>
+            <button class="textSmall" id="formButton">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2024 www.alinaqi.online - All rights reserved
+    </footer>
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>

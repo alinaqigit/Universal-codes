@@ -1,0 +1,20 @@
+#navBar {
+  grid-template-columns: 1.1fr 1fr;
+}
+#navBar #navList .navItems {
+  margin: 5px 12px;
+}
+#navBar #search {
+  padding-left: 0px;
+}
+
+#main #thirdSection {
+  justify-content: center;
+  align-items: center;
+}
+#main #thirdSection form {
+  margin: 40px 0px;
+}
+#main #thirdSection form #formButton {
+  left: 200px;
+}
